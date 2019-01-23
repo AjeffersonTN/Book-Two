@@ -1,0 +1,19 @@
+#textBoxName{
+    display: inline;
+    padding: 10px;
+}
+#flexDiv{
+    display: flex;
+    flex-direction: row; 
+    padding: 15px;
+}
+#articleOne{
+    width: 50%;
+    border: 1px solid blue;
+   
+}
+#articleTwo{
+    width: 50%;
+    border: 1px solid red;
+    
+}

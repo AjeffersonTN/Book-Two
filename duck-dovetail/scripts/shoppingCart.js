@@ -36,27 +36,27 @@ const displayShoppingCart = () => {
 
     
     // Add a click event listener to each button
-    for (const button of allRemoveButtons) {
+    for (button of allRemoveButtons) {
         button.addEventListener(
             "click",
             (event) => {
-                const indexToRemove = parseInt(event.target.id)
+                const indexToRemove = shoppingCart.find(product) => {
+                return parseInt(event.target.id) === product.id 
+                
+                 } // foundProduct.quantity --
+                // displayShoppingCart()                                
+            })
+            if (indexToRemove !== null) {
                 shoppingCart.splice(indexToRemove, 1)
                 displayShoppingCart()
-                                
             }
-        )
 
     }
 }
 //Everytime the purchase button is click more than once change the quantity. add 1 to quanity counter or loop over the cart array
 
 
-//counter
-// textarea
-// Listener
-// Count
-// Loop
+
 
 
 

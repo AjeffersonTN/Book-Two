@@ -72,10 +72,10 @@ for (button of allButtons) {
                     
                 // })
            
-               
-            })
+        
+    })
 
-        }
+}
     
 
 
